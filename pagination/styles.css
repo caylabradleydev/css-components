@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.page:hover,
+.page a:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.page a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+  background: none;
+  border-color: 1px solid #087f5b;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  stroke: #fff;
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.btn--icon {
+  height: 24px;
+  width: 24px;
+}
+
+.btn--previous {
+}
+
+.btn--next {
+}
+
+.page {
+}
+
+.page--selected {
+  background-color: #087f5b;
+}
+
+.page--selected a {
+  color: #fff;
+}
